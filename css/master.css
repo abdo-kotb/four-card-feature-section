@@ -61,7 +61,7 @@ section {
   display: flex;
   flex-direction: column;
   padding: 30px;
-  border-top: 5px solid;
+  border-top: 3px solid;
   border-radius: 5px;
   box-shadow: 0 10px 15px 0px hsl(212deg 100% 92%);
 }
@@ -167,6 +167,10 @@ section > div:last-child {
 }
 
 @media (min-width: 992px) {
+  h1,
+  h2 {
+    font-size: 2.2em;
+  }
   section > div:first-child {
     grid-area: 2 / 1 / 4 / 2;
   }
